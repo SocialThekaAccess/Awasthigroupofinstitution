@@ -1,0 +1,369 @@
+/* ═══════════════════════════════════════════════════════════
+   HERO — Bold Red/Navy Theme
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Accent bar ─────────────────────────────────────────────── */
+.hero-accent-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.55rem 1.5rem;
+  background: #b91c1c;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 0 0 8px 8px;
+}
+
+.hero-accent-divider {
+  opacity: 0.5;
+}
+
+/* ── Hero wrapper ───────────────────────────────────────────── */
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: #0d1f3c;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 8px 48px rgba(0, 0, 0, 0.28);
+}
+
+/* ── Hero body (copy + slider side by side) ─────────────────── */
+.hero-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0;
+}
+
+/* ── Left copy column ───────────────────────────────────────── */
+.hero-copy {
+  padding: 3.5rem 3rem 3rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+.hero-badge-dot {
+  width: 7px;
+  height: 7px;
+  background: #ef4444;
+  border-radius: 50%;
+  animation: pulse-dot 2s infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.4); }
+}
+
+.hero-heading {
+  font-size: clamp(2.6rem, 4.5vw, 4rem);
+  font-weight: 900;
+  line-height: 1.08;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.hero-heading-accent {
+  color: #fbbf24;
+}
+
+.hero-subheading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.6rem 0 0;
+}
+
+.hero-description {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.97rem;
+  line-height: 1.7;
+  max-width: 46ch;
+  margin: 1.25rem 0 0;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* ── Right slider column ────────────────────────────────────── */
+.hero-media {
+  height: 100%;
+  min-height: 460px;
+}
+
+.hero-slider-shell {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 460px;
+}
+
+.hero-slider-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Slide ──────────────────────────────────────────────────── */
+.hero-slide {
+  position: relative;        /* FIX: zaruri hai absolute children ke liye */
+  flex: 0 0 100%;
+  min-height: 460px;
+  overflow: hidden;
+  background: #071426;
+}
+
+/* ── Slide image — single definition (duplicate hata diya) ──── */
+.hero-slide-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  z-index: 0;               /* FIX: image sabse neeche */
+}
+
+/* ── Overlay — opacity badhaya, image properly cover hogi ───── */
+.hero-slide-parallax {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+  background:
+    linear-gradient(180deg, rgba(7, 20, 38, 0.15), rgba(7, 20, 38, 0.85)),  /* FIX: 0.75 → 0.85 */
+    linear-gradient(135deg, #1e3a5f 0%, #0d1f3c 60%, #7f1d1d 100%);
+  z-index: 1;               /* FIX: image ke upar */
+}
+
+/* ── Slide content — sabse upar ─────────────────────────────── */
+.hero-slide-content {
+  position: absolute;
+  inset: auto 1.6rem 1.8rem 1.6rem;
+  z-index: 2;               /* FIX: overlay ke bhi upar */
+}
+
+.hero-slide-tag {
+  display: inline-flex;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.12);
+  padding: 0.25rem 0.7rem;
+  border-radius: 4px;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.hero-slide-content strong {
+  display: block;
+  margin-top: 0.6rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.hero-slide-content p {
+  margin-top: 0.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* ── Stats bar ──────────────────────────────────────────────── */
+.hero-stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a3362;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero-stat-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 1.4rem 1.2rem;
+  text-align: center;
+  transition: background 200ms ease;
+}
+
+.hero-stat-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.hero-stat-card strong {
+  display: block;
+  color: #fbbf24;
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.hero-stat-card span {
+  display: block;
+  margin-top: 0.35rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-stat-divider {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 1024px) {
+  .hero-body {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-media,
+  .hero-slider-shell,
+  .hero-slide {
+    min-height: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 1rem 0 1.5rem;
+    border-radius: 8px;
+  }
+
+  .hero-copy {
+    padding: 2.5rem 1.5rem 2rem;
+  }
+
+  .hero-media,
+  .hero-slider-shell,
+  .hero-slide {
+    min-height: 300px;
+  }
+
+  .hero-slide-content strong {
+    font-size: 1.25rem;
+  }
+
+  .hero-stats-bar {
+    flex-wrap: wrap;
+  }
+
+  .hero-stat-card {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-copy {
+    padding: 2rem 1.25rem 1.75rem;
+  }
+
+  .hero-stats-bar {
+    flex-wrap: wrap;
+  }
+
+  .hero-stat-card {
+    flex: 0 0 50%;
+  }
+
+  .hero-accent-bar {
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.75rem;
+  }
+
+  .hero-accent-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-copy {
+    padding: 1.75rem 1rem 1.5rem;
+  }
+
+  .hero-media,
+  .hero-slider-shell,
+  .hero-slide {
+    min-height: 240px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero-badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-stat-card strong {
+    font-size: 1.3rem;
+  }
+
+  .hero-stat-card span {
+    font-size: 0.72rem;
+  }
+
+  .hero-slide-content {
+    inset: auto 1rem 1.2rem 1rem;
+  }
+
+  .hero-slide-content strong {
+    font-size: 1.1rem;
+  }
+
+  .hero-stats-bar {
+    flex-wrap: wrap;
+  }
+
+  .hero-stat-card {
+    flex: 0 0 50%;
+  }
+}

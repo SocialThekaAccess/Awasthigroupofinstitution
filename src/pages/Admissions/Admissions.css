@@ -1,0 +1,422 @@
+/* ================= COMMON ================= */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= ADMISSIONS SECTION ================= */
+.admissions-section {
+  background: #f5f7fa;
+  padding: 80px 5%;
+  color: #0d1b2e;
+}
+
+.admissions-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* LEFT */
+.admissions-content {
+  flex: 1;
+}
+
+/* RIGHT */
+.admissions-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admissions-image {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(245, 166, 35, 0.3);
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.admissions-image video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* BUTTONS */
+.admissions-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn-apply {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #f5a623 0%, #e8941a 100%);
+  color: #0d1b2a;
+  padding: 14px 28px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(245, 166, 35, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 28px;
+}
+
+.btn-apply:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(245, 166, 35, 0.55);
+}
+
+.btn-apply svg {
+  transition: transform 0.2s;
+}
+
+.btn-apply:hover svg {
+  transform: translateX(4px);
+}
+
+.admissions-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(245, 166, 35, 0.1);
+  border: 1px solid rgba(245, 166, 35, 0.3);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0d1b2e;
+  margin-bottom: 24px;
+}
+
+.admissions-content h2 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  color: #0d1b2e;
+}
+
+.admissions-content h2 span {
+  color: #f5a623;
+}
+
+.admissions-desc {
+  font-size: 16px;
+  color: #5d6775;
+  line-height: 1.7;
+  max-width: 440px;
+  margin-bottom: 32px;
+}
+
+/* CONTACT */
+.admissions-contact h4,
+.admissions-support h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #f5a623;
+  margin-bottom: 8px;
+}
+
+.admissions-contact a {
+  display: block;
+  color: #0d1b2e;
+  font-size: 15px;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+
+.admissions-contact a:hover { color: #f5a623; }
+
+.admissions-support { margin-bottom: 30px; }
+
+.admissions-support a {
+  color: #1a6fc4;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.admissions-support a:hover { text-decoration: underline; }
+
+.btn-terms {
+  background: transparent;
+  color: #0d1b2e;
+  padding: 12px 26px;
+  border: 1px solid rgba(13, 27, 46, 0.3);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-terms:hover {
+  border-color: #f5a623;
+  color: #f5a623;
+}
+
+/* QR CARD */
+.admissions-qr-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.qr-text h5 {
+  margin: 0;
+  font-size: 14px;
+  color: #0d1b2e;
+}
+
+.qr-text p {
+  margin: 0;
+  font-size: 12px;
+  color: #5d6775;
+}
+
+/* ================= VISIT US SECTION ================= */
+.visitus-section {
+  background: #0d1b2e;
+  padding: 80px 5%;
+  color: #ffffff;
+}
+
+.visitus-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.visitus-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(232, 160, 32, 0.12);
+  border: 1px solid rgba(232, 160, 32, 0.3);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #e8a020;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 32px;
+}
+
+.badge-dot {
+  width: 7px;
+  height: 7px;
+  background: #e8a020;
+  border-radius: 50%;
+}
+
+.visitus-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.visitus-info h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.visitus-info h2 span {
+  color: #e8a020;
+}
+
+.visitus-subtitle {
+  color: #8899aa;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 28px;
+  max-width: 420px;
+}
+
+.visitus-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(232, 160, 32, 0.2);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s;
+}
+
+.visitus-card:hover {
+  border-color: rgba(232, 160, 32, 0.5);
+}
+
+.visitus-icon {
+  width: 44px;
+  height: 44px;
+  background: rgba(232, 160, 32, 0.12);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.visitus-card h4 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.visitus-card p {
+  color: #8899aa;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.visitus-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.btn-campus-visit {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #e8a020;
+  color: #0d1b2e;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-campus-visit:hover {
+  background: #f0ae2a;
+  transform: translateY(-2px);
+}
+
+.btn-directions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-directions:hover {
+  border-color: #e8a020;
+  color: #e8a020;
+}
+
+.visitus-map {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(232, 160, 32, 0.2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.visitus-map iframe {
+  width: 100%;
+  height: 420px;
+  border: none;
+  display: block;
+}
+
+/* STATS BAR */
+.visitus-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(232,160,32,0.15);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.visitus-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 20px;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.08);
+  gap: 6px;
+}
+
+.visitus-stat:last-child { border-right: none; }
+
+.visitus-stat strong {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.visitus-stat span {
+  font-size: 0.8rem;
+  color: #8899aa;
+  font-weight: 500;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .admissions-wrapper { flex-direction: column; gap: 32px; }
+  .visitus-layout { grid-template-columns: 1fr; gap: 32px; }
+  .visitus-stats { grid-template-columns: repeat(2, 1fr); }
+  .visitus-stat:nth-child(2) { border-right: none; }
+  .visitus-stat:nth-child(3) { border-right: 1px solid rgba(255,255,255,0.08); }
+  .admissions-content h2 { font-size: 30px; }
+  .admissions-section, .visitus-section { padding: 48px 5%; }
+}
+
+@media (max-width: 640px) {
+  .admissions-section, .visitus-section { padding: 40px 4%; }
+  .admissions-qr-card { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .admissions-section, .visitus-section { padding: 36px 1rem; }
+  .admissions-buttons { flex-direction: column; }
+  .btn-apply, .btn-terms { width: 100%; text-align: center; justify-content: center; }
+  .admissions-content h2 { font-size: 26px; }
+  .visitus-info h2 { font-size: 1.8rem; }
+  .visitus-stats { grid-template-columns: repeat(2, 1fr); }
+  .visitus-map iframe { height: 280px; }
+  .visitus-actions { flex-direction: column; }
+  .btn-campus-visit, .btn-directions { width: 100%; justify-content: center; }
+  .admissions-badge { font-size: 15px; padding: 8px 18px; }
+  .admissions-qr-card img { width: 56px; height: 56px; flex-shrink: 0; }
+}
