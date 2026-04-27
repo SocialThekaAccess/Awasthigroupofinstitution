@@ -13,32 +13,42 @@ import StudentServices from './pages/StudentServices/StudentServices'
 import Career from './pages/Career/Career'
 import Placement from './pages/Placement/Placement'
 import ContactPage from './pages/ContactPage/Contact'
+import AwasthiFeePayment from './pages/AwasthiPaymentGateway/AwasthiFeePayment'
 import ScrollToTop from './components/ui/ScrollToTop/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton/WhatsAppButton'
 
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <main id="top">
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/programs" element={<Programs />} />
-          <Route path="/admissions" element={<Admissions />} />
+      <Routes>
+        {/* Standalone page — has its own navbar/footer */}
+        <Route path="/pay-now" element={<AwasthiFeePayment />} />
 
-          <Route path="/research" element={<ResearchInnovation />} />
-          <Route path="/campus-overview" element={<CampusOverview />} />
-          <Route path="/library" element={<Library />} />
-          <Route path="/student-services" element={<StudentServices />} />
-          <Route path="/placement" element={<Placement />} />
-          <Route path="/career" element={<Career />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </main>
-      <Footer />
-      <ScrollToTop />
-      <WhatsAppButton />
+        {/* All other pages with site Header + Footer */}
+        <Route path="/*" element={
+          <>
+            <Header />
+            <main id="top">
+              <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/programs" element={<Programs />} />
+                <Route path="/admissions" element={<Admissions />} />
+                <Route path="/research" element={<ResearchInnovation />} />
+                <Route path="/campus-overview" element={<CampusOverview />} />
+                <Route path="/library" element={<Library />} />
+                <Route path="/student-services" element={<StudentServices />} />
+                <Route path="/placement" element={<Placement />} />
+                <Route path="/career" element={<Career />} />
+                <Route path="/contact" element={<ContactPage />} />
+              </Routes>
+            </main>
+            <Footer />
+            <ScrollToTop />
+            <WhatsAppButton />
+          </>
+        } />
+      </Routes>
     </BrowserRouter>
   )
 }

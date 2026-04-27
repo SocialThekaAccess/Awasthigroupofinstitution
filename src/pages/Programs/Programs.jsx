@@ -70,32 +70,40 @@ export default function Programs() {
         </div>
         <div className="programs-grid">
           <article className="program-card">
+            <a href="https://www.amchnalagarh.com/" target="_blank" rel="noopener noreferrer" className="program-card-link">
             <div className="program-card-image"><img src="/Awasthiayurveda.png" alt="Ayurveda" /></div>
             <div className="program-card-content">
               <h3>Ayurveda Department</h3>
               <p>Traditional medical sciences integrating ancient holistic health practices with modern scientific methodologies.</p>
             </div>
+            </a>
           </article>
           <article className="program-card">
+            <a href="https://www.awasthicollegeoflaw.in/" target="_blank" rel="noopener noreferrer" className="program-card-link">
             <div className="program-card-image"><img src="/Awasthilaw.png" alt="Law" /></div>
             <div className="program-card-content">
               <h3>Law Department</h3>
               <p>Comprehensive legal education focusing on constitutional, corporate, and criminal law.</p>
             </div>
+            </a>
           </article>
           <article className="program-card">
+            <a href="https://www.ainnalagarh.com/" target="_blank" rel="noopener noreferrer" className="program-card-link">
             <div className="program-card-image"><img src="/Awasthinursing.png" alt="Nursing" /></div>
             <div className="program-card-content">
               <h3>Nursing Department</h3>
               <p>Advanced healthcare programs dedicated to clinical excellence and modern nursing practices.</p>
             </div>
+            </a>
           </article>
           <article className="program-card">
+            <a href="https://awasthiinstituteofpharmacy.com/" target="_blank" rel="noopener noreferrer" className="program-card-link">
             <div className="program-card-image"><img src="/AwasthiPharmacy.png" alt="Pharmacy" /></div>
             <div className="program-card-content">
               <h3>Pharmacy Department</h3>
               <p>Specialized pharmacological studies focused on medicine development and research.</p>
             </div>
+            </a>
           </article>
         </div>
       </section>

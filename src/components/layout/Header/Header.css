@@ -218,6 +218,35 @@
   color: #0d1b2a;
 }
 
+.paynow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1rem;
+  border-radius: 6px;
+  background: #16a34a;
+  border: 1px solid #16a34a;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.paynow-btn:hover {
+  background: #15803d;
+  border-color: #15803d;
+  color: #ffffff;
+}
+
+/* hidden on desktop, shown on mobile next to hamburger */
+.mobile-paynow {
+  display: none;
+}
+
 /* ── Hamburger ───────────────────────────────────────── */
 .hamburger {
   display: none;
@@ -311,6 +340,7 @@
 
   .hamburger { display: flex; }
   .mobile-drawer { display: flex; }
+  .mobile-paynow { display: inline-flex; }
 
   .brand-logo { width: 120px; height: 40px; }
   .brand-name { font-size: 0.95rem; }
@@ -323,5 +353,6 @@
   .mobile-link { padding: 12px 16px; font-size: 0.95rem; }
   .mobile-cta { padding: 12px 16px 16px; }
   .mobile-cta .helpline-card,
-  .mobile-cta .brochure-btn { width: 100%; justify-content: center; }
+  .mobile-cta .brochure-btn,
+  .mobile-cta .paynow-btn { width: 100%; justify-content: center; }
 }

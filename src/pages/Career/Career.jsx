@@ -11,7 +11,7 @@ export default function Career() {
           <h1>Join Our<br /><span>Team</span></h1>
           <p>Be a part of a dynamic and inspiring team dedicated to excellence in education. Grow your career while making a real impact.</p>
           <div className="career-hero-btns">
-            <a href="/contact" className="c-btn-primary">Apply Now →</a>
+            <a href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/" target="_blank" rel="noopener noreferrer" className="c-btn-primary">Apply Now →</a>
             <a href="#openings" className="c-btn-outline">View Openings →</a>
           </div>
           <div className="career-perks">
@@ -64,7 +64,7 @@ export default function Career() {
                 <h3>{job.title}</h3>
                 <span className="job-type">{job.type}</span>
               </div>
-              <a href="/contact" className="job-apply-btn">Apply →</a>
+              <a href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/" target="_blank" rel="noopener noreferrer" className="job-apply-btn">Apply →</a>
             </div>
           ))}
         </div>

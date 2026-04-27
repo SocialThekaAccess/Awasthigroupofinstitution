@@ -46,7 +46,7 @@ export default function Hero({ parallaxStyle }) {
           </p>
 
           <div className="hero-actions">
-            <Button href="#section-explorer" variant="primary">
+            <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">
               Apply Now ↗
             </Button>
             <Button href="#contact" variant="secondary">
