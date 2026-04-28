@@ -72,7 +72,7 @@ export default function ContactPage() {
           </aside>
 
           {/* Form */}
-          <div className="contact-form-wrap">
+          <div className="contact-form-wrap" id="contact-form">
             {submitted ? (
               <div className="success-box">
                 <span className="success-icon">✅</span>

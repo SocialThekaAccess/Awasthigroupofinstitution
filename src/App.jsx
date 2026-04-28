@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import Header from './components/layout/Header/Header'
 import HomePage from './pages/HomePage/HomePage'
 import About from './pages/About/About'
@@ -17,6 +18,12 @@ import AwasthiFeePayment from './pages/AwasthiPaymentGateway/AwasthiFeePayment'
 import ScrollToTop from './components/ui/ScrollToTop/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton/WhatsAppButton'
 
+function RouteScrollTop() {
+  const { pathname } = useLocation()
+  useEffect(() => { window.scrollTo(0, 0) }, [pathname])
+  return null
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -29,6 +36,7 @@ function App() {
           <>
             <Header />
             <main id="top">
+              <RouteScrollTop />
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<About />} />
