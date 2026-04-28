@@ -16,6 +16,7 @@
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 0 0 8px 8px;
+  margin: 0;
 }
 
 .hero-accent-divider {
@@ -40,6 +41,10 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 0;
+  background: #0d1f3c;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
 }
 
 /* ── Left copy column ───────────────────────────────────────── */
@@ -152,7 +157,19 @@
   object-fit: cover;
   object-position: center;
   display: block;
-  z-index: 0;               /* FIX: image sabse neeche */
+  z-index: 0;
+  filter: brightness(0.92);
+  transform: scale(1.03);
+  transition: transform 0.6s ease;
+}
+
+/* ── Left-fade gradient overlay — smooth blend into left column ── */
+.hero-slide-left-fade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(13,31,60,0.92) 0%, rgba(13,31,60,0.3) 20%, transparent 45%);
+  z-index: 1;
+  pointer-events: none;
 }
 
 /* ── Overlay — opacity badhaya, image properly cover hogi ───── */
@@ -267,6 +284,11 @@
   .hero-slide {
     min-height: 360px;
   }
+
+  /* On single column, fade from bottom instead of left */
+  .hero-slide-left-fade {
+    background: linear-gradient(90deg, rgba(13,31,60,0.5) 0%, transparent 35%);
+  }
 }
 
 @media (max-width: 768px) {
@@ -323,6 +345,10 @@
 }
 
 @media (max-width: 480px) {
+  .hero {
+    margin: 1rem 0 1.5rem;
+  }
+
   .hero-copy {
     padding: 1.75rem 1rem 1.5rem;
   }

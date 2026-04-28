@@ -36,18 +36,17 @@ body {
   background: #ffffff;
 }
 
-a {
-  color: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
+main {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
 }
 
 #root {
-  width: min(1280px, 100%);
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
+  background: #ffffff;
 }
 
 @media (max-width: 480px) {

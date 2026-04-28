@@ -81,11 +81,6 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Pay Now — visible on mobile next to hamburger */}
-        <Link to="/pay-now" className="paynow-btn mobile-paynow" onClick={closeMenu}>
-          Pay Now
-        </Link>
-
         {/* Hamburger */}
         <button
           className={`hamburger ${menuOpen ? 'is-open' : ''}`}

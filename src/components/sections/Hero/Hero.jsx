@@ -1,4 +1,5 @@
 import { startTransition, useState } from 'react'
+import { Link } from 'react-router-dom'
 import SliderDots from '../../ui/SliderDots/SliderDots'
 import Button from '../../ui/Button/Button'
 import { useAutoSlide } from '../../../hooks/useAutoSlide'
@@ -19,7 +20,7 @@ export default function Hero({ parallaxStyle }) {
 
   return (
     <section className="hero">
-      {/* ── Navbar-style top accent bar ──────────────────────────── */}
+      {/* ── Red accent bar — inside hero with bottom curves ── */}
       <div className="hero-accent-bar">
         <span>🎓 Admissions Open 2026</span>
         <span className="hero-accent-divider">|</span>
@@ -49,9 +50,9 @@ export default function Hero({ parallaxStyle }) {
             <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">
               Apply Now ↗
             </Button>
-            <Button href="#contact" variant="secondary">
+            <Link to="/contact" className="btn btn--secondary">
               Contact Admissions
-            </Button>
+            </Link>
           </div>
         </div>
 
@@ -67,6 +68,8 @@ export default function Hero({ parallaxStyle }) {
                   {slide.img && (
                     <img src={slide.img} alt={slide.tag} className="hero-slide-img" />
                   )}
+                  {/* Left-fade gradient overlay — blends into left navy column */}
+                  <div className="hero-slide-left-fade" />
                   <div
                     className="hero-slide-parallax"
                     style={{

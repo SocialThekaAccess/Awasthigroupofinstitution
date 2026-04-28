@@ -76,7 +76,7 @@ export default function Career() {
           <p className="section-label">Join Our Team</p>
           <h2>Don't See Your Role?</h2>
           <p>Send us your resume and we'll reach out when the right opportunity comes up.</p>
-          <a href="/contact" className="c-btn-primary">Get In Touch →</a>
+          <a href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/" target="_blank" rel="noopener noreferrer" className="c-btn-primary">Get In Touch →</a>
         </div>
       </section>
 

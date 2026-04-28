@@ -242,10 +242,7 @@
   color: #ffffff;
 }
 
-/* hidden on desktop, shown on mobile next to hamburger */
-.mobile-paynow {
-  display: none;
-}
+
 
 /* ── Hamburger ───────────────────────────────────────── */
 .hamburger {
@@ -340,7 +337,6 @@
 
   .hamburger { display: flex; }
   .mobile-drawer { display: flex; }
-  .mobile-paynow { display: inline-flex; }
 
   .brand-logo { width: 120px; height: 40px; }
   .brand-name { font-size: 0.95rem; }

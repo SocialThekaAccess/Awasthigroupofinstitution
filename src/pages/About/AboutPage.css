@@ -42,6 +42,7 @@
 }
 
 .about-hero__btn {
+  text-decoration: none;
   background: var(--navy);
   color: #fff;
   border: none;
