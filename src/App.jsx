@@ -15,6 +15,8 @@ import Career from './pages/Career/Career'
 import Placement from './pages/Placement/Placement'
 import ContactPage from './pages/ContactPage/Contact'
 import AwasthiFeePayment from './pages/AwasthiPaymentGateway/AwasthiFeePayment'
+import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions'
+import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
 import ScrollToTop from './components/ui/ScrollToTop/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton/WhatsAppButton'
 
@@ -49,6 +51,8 @@ function App() {
                 <Route path="/placement" element={<Placement />} />
                 <Route path="/career" element={<Career />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               </Routes>
             </main>
             <Footer />

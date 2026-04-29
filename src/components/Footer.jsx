@@ -141,11 +141,10 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="footer-bottom">
         <p>© 2025 Awasthi Group of Institutions. All rights reserved.</p>
-        {/* <div className="footer-bottom-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Use</a>
-          <a href="#">Sitemap</a>
-        </div> */}
+        <div className="footer-bottom-links">
+          <Link to="/privacy-policy" onClick={() => window.scrollTo(0,0)}>Privacy Policy</Link>
+          <Link to="/terms-and-conditions" onClick={() => window.scrollTo(0,0)}>Terms &amp; Conditions</Link>
+        </div>
       </div>
 
     </footer>
