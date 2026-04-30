@@ -47,12 +47,20 @@ export default function Hero({ parallaxStyle }) {
           </p>
 
           <div className="hero-actions">
-            <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">
-              Apply Now ↗
-            </Button>
-            <Link to="/contact" className="btn btn--secondary">
-              Contact Admissions
-            </Link>
+            <a
+              href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-apply-btn"
+            >
+              <span className="hero-apply-btn__text">Apply Now</span>
+              <span className="hero-apply-btn__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
 

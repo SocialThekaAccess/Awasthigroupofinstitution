@@ -119,6 +119,66 @@
   margin-top: 2rem;
 }
 
+/* ── Premium Apply Now Button ── */
+.hero-apply-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  text-decoration: none;
+  background: linear-gradient(135deg, #f5c542 0%, #e8a020 50%, #f5c542 100%);
+  background-size: 200% auto;
+  color: #0d1f3c;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 0;
+  border-radius: 50px;
+  box-shadow: 0 8px 32px rgba(232,160,32,0.45), 0 2px 8px rgba(0,0,0,0.2);
+  overflow: hidden;
+  transition: background-position 0.4s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  animation: hero-btn-glow 3s ease-in-out infinite;
+}
+
+.hero-apply-btn:hover {
+  background-position: right center;
+  box-shadow: 0 12px 40px rgba(232,160,32,0.6), 0 4px 12px rgba(0,0,0,0.25);
+  transform: translateY(-3px) scale(1.03);
+}
+
+.hero-apply-btn:active {
+  transform: translateY(0) scale(0.99);
+}
+
+.hero-apply-btn__text {
+  padding: 0.85rem 1.6rem 0.85rem 1.8rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-apply-btn__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: rgba(0,0,0,0.15);
+  border-radius: 50%;
+  margin-right: 6px;
+  flex-shrink: 0;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.hero-apply-btn:hover .hero-apply-btn__icon {
+  background: rgba(0,0,0,0.22);
+  transform: translateX(3px);
+}
+
+@keyframes hero-btn-glow {
+  0%, 100% { box-shadow: 0 8px 32px rgba(232,160,32,0.45), 0 2px 8px rgba(0,0,0,0.2); }
+  50%       { box-shadow: 0 8px 40px rgba(232,160,32,0.7), 0 2px 8px rgba(0,0,0,0.2); }
+}
+
 /* ── Right slider column ────────────────────────────────────── */
 .hero-media {
   height: 100%;
@@ -362,6 +422,12 @@
   .hero-actions {
     flex-direction: column;
     gap: 0.75rem;
+  }
+
+  .hero-apply-btn {
+    width: 100%;
+    justify-content: space-between;
+  }
   }
 
   .hero-badge {
