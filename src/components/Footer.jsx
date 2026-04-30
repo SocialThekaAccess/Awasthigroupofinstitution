@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
           </a>
 
-          <a className="contact-item" href="mailto:info@awasthigroup.co.in">
+          <a className="contact-item" href="https://mail.google.com/mail/?view=cm&to=info@awasthigroup.co.in" target="_blank" rel="noopener noreferrer">
             <div className="contact-icon">
               <svg viewBox="0 0 24 24">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
