@@ -139,7 +139,7 @@ export default function Placement() {
           <p className="section-label">Join Our Community</p>
           <h2>Ready to Launch Your Professional Journey?</h2>
           <p>Whether you are a student seeking placement support or a recruiter looking for top talent, we are here to help.</p>
-          <Button href="/contact" variant="primary">Apply Now ↗</Button>
+          <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">Apply Now ↗</Button>
         </div>
       </section>
 
