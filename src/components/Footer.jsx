@@ -97,7 +97,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4>Contact Us</h4>
 
-          <a className="contact-item" href="https://maps.google.com/?q=Ward+No+9,+Nalagarh,+District+Solan,+Himachal+Pradesh" target="_blank" rel="noopener noreferrer">
+          <a className="contact-item" href="https://maps.app.goo.gl/EmDz9YRdt4Fmi3T48" target="_blank" rel="noopener noreferrer">
             <div className="contact-icon">
               <svg viewBox="0 0 24 24">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
