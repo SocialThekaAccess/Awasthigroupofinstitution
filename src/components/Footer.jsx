@@ -106,7 +106,7 @@ const Footer = () => {
             </div>
             <div className="contact-text">
               <strong>Address</strong>
-              Ward No.9, Nalagarh, District Solan, Himachal Pradesh
+             Awasthi Group Of Institutions, Ward No.9, Nalagarh, District Solan, Himachal Pradesh
             </div>
           </a>
 

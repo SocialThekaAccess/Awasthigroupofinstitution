@@ -79,7 +79,7 @@ export default function ContactPage() {
             </div>
             <div className="connect-card-body">
               <h3>Visit Us</h3>
-              <p>Ward No. 9, Nalagarh, District Solan</p>
+              <p>Awasthi GrWard No. 9, Nalagarh, District Solan</p>
               <span className="connect-card-value">Himachal Pradesh – 174101</span>
             </div>
             <div className="connect-card-arrow">→</div>
@@ -101,7 +101,7 @@ export default function ContactPage() {
           <div className="contact-map-card">
             <iframe
               title="Awasthi Group Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.123456789!2d76.7!3d31.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDA2JzAwLjAiTiA3NsKwNDInMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.506050410031!2d76.7275253!3d31.040008900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39055b2afdd59029%3A0x8f58b7ee25ed1ed0!2sAwasthi%20Group%20Of%20Institutions!5e0!3m2!1sen!2sin!4v1777875687570!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

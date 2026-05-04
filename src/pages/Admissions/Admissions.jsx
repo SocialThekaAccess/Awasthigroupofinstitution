@@ -124,7 +124,7 @@ const Admissions = () => {
             <div className="visitus-map">
               <iframe
                 title="Location"
-                src="https://maps.google.com/maps?q=31.0400089,76.7275253&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.506050410031!2d76.7275253!3d31.040008900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39055b2afdd59029%3A0x8f58b7ee25ed1ed0!2sAwasthi%20Group%20Of%20Institutions!5e0!3m2!1sen!2sin!4v1777875687570!5m2!1sen!2sin"
                 loading="lazy"
               />
             </div>
