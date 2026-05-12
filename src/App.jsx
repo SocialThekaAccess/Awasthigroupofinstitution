@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { HelmetProvider } from 'react-helmet-async'
 import Header from './components/layout/Header/Header'
 import HomePage from './pages/HomePage/HomePage'
 import About from './pages/About/About'
@@ -29,7 +30,8 @@ function RouteScrollTop() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
       <Routes>
         {/* Standalone page — has its own navbar/footer */}
         <Route path="/pay-now" element={<AwasthiFeePayment />} />
@@ -64,6 +66,7 @@ function App() {
         } />
       </Routes>
     </BrowserRouter>
+  </HelmetProvider>
   )
 }
 
