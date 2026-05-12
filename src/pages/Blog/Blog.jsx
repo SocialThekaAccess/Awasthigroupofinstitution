@@ -694,7 +694,7 @@ The future of Ayurveda in India and global demand clearly shows that this field 
     metaTitle: 'BA LLB vs LLB: Which Law Course Should You Choose?',
     metaDescription: 'Confused between BA LLB vs LLB? Learn key differences, eligibility, career scope, and which law course is right for you after 12th or graduation.',
     excerpt: 'Confused between BA LLB vs LLB? Learn key differences, eligibility, career scope, and which law course is right for you after 12th or graduation.',
-    img: '/Awasthilaw.png',
+    img: '/BALLB.jpeg',
     sections: [
       {
         heading: null,
