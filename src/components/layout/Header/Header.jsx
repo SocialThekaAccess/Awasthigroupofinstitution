@@ -60,6 +60,7 @@ export default function Header() {
             </NavLink>
           ))}
           <NavLink to="/career" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'} onClick={closeMenu}>Career</NavLink>
+          <NavLink to="/blog" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'} onClick={closeMenu}>Blog</NavLink>
         </nav>
 
         {/* CTA */}
@@ -107,6 +108,7 @@ export default function Header() {
             </NavLink>
           ))}
           <NavLink to="/career" className={({ isActive }) => isActive ? 'mobile-link active' : 'mobile-link'} onClick={closeMenu}>Career</NavLink>
+          <NavLink to="/blog" className={({ isActive }) => isActive ? 'mobile-link active' : 'mobile-link'} onClick={closeMenu}>Blog</NavLink>
         </nav>
         <div className="mobile-cta">
           <Link to="/contact" className="helpline-card" onClick={closeMenu}>

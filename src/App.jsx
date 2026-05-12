@@ -17,6 +17,7 @@ import ContactPage from './pages/ContactPage/Contact'
 import AwasthiFeePayment from './pages/AwasthiPaymentGateway/AwasthiFeePayment'
 import TermsAndConditions from './pages/TermsAndConditions/TermsAndConditions'
 import PrivacyPolicy from './pages/PrivacyPolicy/PrivacyPolicy'
+import Blog from './pages/Blog/Blog'
 import ScrollToTop from './components/ui/ScrollToTop/ScrollToTop'
 import WhatsAppButton from './components/ui/WhatsAppButton/WhatsAppButton'
 
@@ -53,6 +54,7 @@ function App() {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                <Route path="/blog" element={<Blog />} />
               </Routes>
             </main>
             <Footer />
