@@ -920,7 +920,7 @@ export default function Blog() {
           </p>
         </div>
         <div className="blog-hero-img-wrap">
-          <img src="/Studentss.png" alt="Students at Awasthi Group of Institutions" className="blog-hero-img" />
+          <img src="/blogheroimg.jpeg" alt="Students at Awasthi Group of Institutions" className="blog-hero-img" />
         </div>
       </section>
 
