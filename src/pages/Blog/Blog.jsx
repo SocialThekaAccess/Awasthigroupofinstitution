@@ -914,7 +914,7 @@ export default function Blog() {
       <section className="blog-hero">
         <div className="blog-hero-text">
           <p className="blog-hero-label">Blog</p>
-          <h1>Helpful articles for education,<br />career &amp; professional growth</h1>
+          <h1>Helpful articles for education,career &amp; professional growth</h1>
           <p className="blog-hero-sub">
             Insights and guidance from Awasthi Group of Institutions — helping students make informed decisions about higher education, Ayurveda, Nursing, Law, and more.
           </p>
