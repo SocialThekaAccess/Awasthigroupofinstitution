@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { useNavigate, useParams, Link } from 'react-router-dom'
 import './Blog.css'
 
 const SITE = 'https://www.awasthigroup.co.in/'
@@ -28,6 +28,7 @@ function RichPara({ text }) {
 const blogPosts = [
   {
     id: 1,
+    slug: 'top-reasons-to-choose-colleges-in-nalagarh-himachal-pradesh',
     category: 'Education',
     tag: 'Higher Studies',
     title: 'Top Reasons to Choose Colleges in Nalagarh, Himachal Pradesh',
@@ -139,6 +140,7 @@ Whether students want to pursue Ayurveda, Nursing, Law, or other professional ca
   },
   {
     id: 2,
+    slug: 'best-ayurvedic-college-in-himachal-pradesh-for-bams',
     category: 'Ayurveda',
     tag: 'Healthcare',
     title: 'Best Ayurvedic College in Himachal Pradesh for BAMS',
@@ -226,6 +228,7 @@ Choosing the best Ayurvedic college in Himachal Pradesh helps students gain qual
   },
   {
     id: 3,
+    slug: 'best-college-in-nalagarh-for-career-focused-education',
     category: 'Education',
     tag: 'Best College',
     title: 'Why Awasthi Group Is the Best College in Nalagarh for Career-Focused Education',
@@ -349,6 +352,7 @@ With its commitment to academic excellence and practical learning, Awasthi Group
   },
   {
     id: 4,
+    slug: 'best-college-in-nalagarh-for-nursing-law-ayurveda',
     category: 'Education',
     tag: 'Nursing, Law & Ayurveda',
     title: 'Best College in Nalagarh for Nursing, Law & Ayurveda',
@@ -467,6 +471,7 @@ Start your journey today and take the first step toward a bright and secure care
   },
   {
     id: 5,
+    slug: 'how-to-get-admission-in-bsc-nursing-in-himachal-pradesh',
     category: 'Nursing',
     tag: 'B.Sc Nursing',
     title: 'How to Get Admission in B.Sc Nursing in Himachal Pradesh',
@@ -584,6 +589,7 @@ If you are passionate about healthcare and helping others, now is the right time
   },
   {
     id: 6,
+    slug: 'future-of-ayurveda-in-nalagarh-himachal-pradesh-bams-course',
     category: 'Ayurveda',
     tag: 'BAMS',
     title: 'Future of Ayurveda in Nalagarh, Himachal Pradesh and Global Demand (BAMS Course)',
@@ -688,6 +694,7 @@ The future of Ayurveda in India and global demand clearly shows that this field 
   },
   {
     id: 7,
+    slug: 'ba-llb-vs-llb-which-law-course-should-you-choose',
     category: 'Law',
     tag: 'BA LLB vs LLB',
     title: 'BA LLB vs LLB: Which Law Course Should You Choose?',
@@ -806,7 +813,20 @@ If you are planning to study law in Nalagarh, Himachal Pradesh, choosing a reput
 ]
 
 /* ── Article Page ── */
-function ArticleView({ post, onBack }) {
+export function BlogArticle() {
+  const { slug } = useParams()
+  const navigate = useNavigate()
+  const post = blogPosts.find(p => p.slug === slug)
+
+  if (!post) {
+    return (
+      <div className="page blog-page" style={{ padding: '4rem 2rem', textAlign: 'center' }}>
+        <h2>Blog post not found.</h2>
+        <button className="blog-back-btn" onClick={() => navigate('/blog')}>← Back to Blog</button>
+      </div>
+    )
+  }
+
   return (
     <div className="page blog-page">
       <div className="blog-art-wrap">
@@ -816,18 +836,17 @@ function ArticleView({ post, onBack }) {
           <meta name="description" content={post.metaDescription} />
           <meta property="og:title" content={post.metaTitle} />
           <meta property="og:description" content={post.metaDescription} />
-          <meta property="og:image" content={post.img} />
+          <meta property="og:image" content={`https://www.awasthigroup.co.in${post.img}`} />
           <meta property="og:type" content="article" />
-          <link rel="canonical" href="https://awasthigroup.co.in/blog" />
+          <link rel="canonical" href={`https://www.awasthigroup.co.in/blog/${post.slug}`} />
         </Helmet>
 
-        <button className="blog-back-btn" onClick={onBack}>
+        <button className="blog-back-btn" onClick={() => navigate('/blog')}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="15" height="15"><polyline points="15 18 9 12 15 6" /></svg>
           Back to Blog
         </button>
 
         <div className="blog-art-layout">
-          {/* Main content */}
           <article className="blog-art-main">
             <div className="blog-art-top">
               <span className="blog-art-cat">{post.category}</span>
@@ -859,7 +878,6 @@ function ArticleView({ post, onBack }) {
             </div>
           </article>
 
-          {/* Sidebar */}
           <aside className="blog-art-sidebar">
             <div className="blog-sb-card">
               <h4>About Awasthi Group</h4>
@@ -892,11 +910,7 @@ function ArticleView({ post, onBack }) {
 
 /* ── Blog Listing ── */
 export default function Blog() {
-  const [selectedPost, setSelectedPost] = useState(null)
-
-  if (selectedPost) {
-    return <ArticleView post={selectedPost} onBack={() => setSelectedPost(null)} />
-  }
+  const navigate = useNavigate()
 
   return (
     <div className="page blog-page">
@@ -936,7 +950,7 @@ export default function Blog() {
           <article
             key={post.id}
             className="blog-card"
-            onClick={() => setSelectedPost(post)}
+            onClick={() => navigate(`/blog/${post.slug}`)}
           >
             <div className="blog-card-img-wrap">
               <img src={post.img} alt={post.title} className="blog-card-img" />
