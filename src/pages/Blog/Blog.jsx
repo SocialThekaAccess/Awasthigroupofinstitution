@@ -35,7 +35,7 @@ const blogPosts = [
     metaDescription: 'Discover why students prefer colleges in Nalagarh Himachal Pradesh for higher studies. Explore quality education, peaceful environment, professional courses, and career opportunities.',
     excerpt:
       'Discover why students prefer colleges in Nalagarh for higher studies — quality education, peaceful environment, professional courses, and real career opportunities.',
-    img: '/AcademicPrograms.png',
+    img: '/Topreasons.png',
     sections: [
       {
         heading: null,
@@ -146,7 +146,7 @@ Whether students want to pursue Ayurveda, Nursing, Law, or other professional ca
     metaDescription: 'Looking for the best Ayurvedic college in Himachal Pradesh? Explore BAMS courses, career scope, benefits of Ayurveda education, and professional opportunities.',
     excerpt:
       'Looking for the best Ayurvedic college in Himachal Pradesh? Explore BAMS courses, career scope, benefits of Ayurveda education, and professional opportunities.',
-    img: '/Awasthiayurveda.png',
+    img: '/bestayurvedicclg.jpeg',
     sections: [
       {
         heading: null,
@@ -233,7 +233,7 @@ Choosing the best Ayurvedic college in Himachal Pradesh helps students gain qual
     metaDescription: 'Discover why Awasthi Group is the best college in Nalagarh offering nursing, law, and ayurveda courses with career-focused education and excellent facilities.',
     excerpt:
       'Discover why Awasthi Group stands out as the best college in Nalagarh — offering nursing, law, and ayurveda programs with practical learning and excellent facilities.',
-    img: '/MainCampus.png',
+    img: '/whyawasthigroup.png',
     sections: [
       {
         heading: 'Introduction',
@@ -356,7 +356,7 @@ With its commitment to academic excellence and practical learning, Awasthi Group
     metaDescription: 'Looking for the best college in Nalagarh? Explore top nursing, law college in Nalagarh Himachal Pradesh & Ayurveda medical college in Nalagarh, Solan.',
     excerpt:
       'Looking for the best college in Nalagarh? Explore top nursing, law, and Ayurveda programs at Awasthi Group of Institutions — career-focused education in Himachal Pradesh.',
-    img: '/Awasthinursing.png',
+    img: '/bestcollegeinnalagarh.jpeg',
     sections: [
       {
         heading: null,
@@ -473,7 +473,7 @@ Start your journey today and take the first step toward a bright and secure care
     metaTitle: 'Get Admission in B.Sc Nursing in Himachal Pradesh',
     metaDescription: 'Learn how to get admission in B.Sc Nursing in Himachal Pradesh. Check eligibility, entrance exams, process, and tips to secure your seat easily.',
     excerpt: 'Learn how to get admission in B.Sc Nursing in Himachal Pradesh. Check eligibility, entrance exams, process, and tips to secure your seat easily.',
-    img: '/Awasthinursing.png',
+    img: '/Howtogetadd.jpeg',
     sections: [
       {
         heading: null,
@@ -590,7 +590,7 @@ If you are passionate about healthcare and helping others, now is the right time
     metaTitle: 'BAMS in Nalagarh | Future of Ayurveda & Global Demand',
     metaDescription: 'Explore BAMS in Nalagarh, Himachal Pradesh and the future of Ayurveda. Learn global demand, career scope, and why Ayurveda is a top career choice.',
     excerpt: 'Explore BAMS in Nalagarh, Himachal Pradesh and the future of Ayurveda — global demand, career scope, and why Ayurveda is a top career choice today.',
-    img: '/Awasthiayurveda.png',
+    img: '/futureofayurveda.jpeg',
     sections: [
       {
         heading: null,
@@ -694,7 +694,7 @@ The future of Ayurveda in India and global demand clearly shows that this field 
     metaTitle: 'BA LLB vs LLB: Which Law Course Should You Choose?',
     metaDescription: 'Confused between BA LLB vs LLB? Learn key differences, eligibility, career scope, and which law course is right for you after 12th or graduation.',
     excerpt: 'Confused between BA LLB vs LLB? Learn key differences, eligibility, career scope, and which law course is right for you after 12th or graduation.',
-    img: '/BALLB.jpeg',
+    img: '/bavsballb.jpeg',
     sections: [
       {
         heading: null,
