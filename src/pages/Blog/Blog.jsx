@@ -947,10 +947,10 @@ export default function Blog() {
       {/* ── CARDS GRID ── */}
       <section className="blog-grid">
         {blogPosts.map((post) => (
-          <article
+          <Link
             key={post.id}
+            to={`/blog/${post.slug}`}
             className="blog-card"
-            onClick={() => navigate(`/blog/${post.slug}`)}
           >
             <div className="blog-card-img-wrap">
               <img src={post.img} alt={post.title} className="blog-card-img" />
@@ -963,7 +963,7 @@ export default function Blog() {
                 <span className="blog-card-read">Read More →</span>
               </div>
             </div>
-          </article>
+          </Link>
         ))}
       </section>
 
