@@ -41,7 +41,7 @@ export default function Header() {
 
         {/* Logo */}
         <Link to="/" className="brand" aria-label="Awasthi Group of Institutions" onClick={closeMenu}>
-          <img src="/lllogo.png" alt="Awasthi Group of Institutions logo" className="brand-logo" />
+          <img src="/lllogo.png" alt="Awasthi Group of Institutions" className="brand-logo" />
           <div className="brand-text">
           </div>
         </Link>

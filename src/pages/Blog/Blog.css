@@ -105,6 +105,8 @@
   transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: inherit;
 }
 
 .blog-card:hover {
