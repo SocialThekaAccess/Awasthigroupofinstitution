@@ -37,7 +37,7 @@ export default function Hero({ parallaxStyle }) {
           </div>
 
           <h1 className="hero-heading">
-            Shape Your <span className="hero-heading-accent">Future</span>
+            Building a brighter future since 2004 with dedicated educational institutions
           </h1>
           <p className="hero-subheading">Join Awasthi Group of Institutions</p>
 
