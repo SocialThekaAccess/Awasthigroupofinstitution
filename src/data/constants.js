@@ -48,7 +48,7 @@ export const sectionMenus = [
     panelTitle: 'A values-led institution with a long-term academic vision',
     panelText:
       "Awasthi Group of Institutions presents itself as a disciplined, student-centered learning environment focused on quality education, accessibility, and professional growth.",
-    summary: "Discover the essence of Awasthi Group Of Institutions — built on a strong foundation, guided by visionary leadership, and driven by academic excellence. Our values shape a dynamic learning environment that empowers students to grow, lead, and succeed. We are committed to nurturing innovation, critical thinking, and real-world skills that prepare students for a successful future.",
+    summary: "Discover the essence of Awasthi Group of Institutions (AGI Himachal) — built on a strong foundation, guided by visionary leadership, and driven by academic excellence. At AGI Himachal, our values shape a dynamic learning environment that empowers students to grow, lead, and succeed. We are committed to nurturing innovation, critical thinking, and real-world skills that prepare students for a successful future.",
     visualText: 'Awasthi Group of Institutions — Nalagarh, Himachal Pradesh.',
     visualImg: '/mootcourt.png',
     metrics: [
@@ -132,14 +132,13 @@ export const showcaseSlides = [
     img: '/Placements.png',
   },
   {
-    key: 'research-showcase',
-    tag: 'Research & Labs',
-    title: 'Research, labs, and innovation-led projects',
-    text: 'At Awasthi Group of Institutions, we emphasize hands-on learning through advanced laboratories and research-driven initiatives. Our innovation-focused ecosystem empowers students to experiment, explore ideas, and develop practical solutions that prepare them for real-world challenges and future advancements.',
-    bullets: ['Lab and project visuals', ' State-of-the-art laboratory facilities', ' Applied learning and practical training spaces',' Innovation-led photography and project showcases',' Research activities and student-led experiments',' Faculty-guided research initiatives'],
-    img: '/Researchlabs.png',
-  },
-]
+  key: 'research-showcase',
+  tag: 'Research & Labs',
+  title: 'Research, labs, and innovation-led projects',
+  text: 'At AGI Himachal (Awasthi Group of Institutions), we emphasize hands-on learning through advanced laboratories and research-driven initiatives. Our innovation-focused ecosystem empowers students to experiment, explore ideas, and develop practical solutions that prepare them for real-world challenges and future advancements.\n\nThrough modern infrastructure, practical exposure, and academic excellence, AGI Himachal creates an environment where students can build knowledge, strengthen skills, and prepare for successful careers.',
+  bullets: ['Lab and project visuals', ' State-of-the-art laboratory facilities', ' Applied learning and practical training spaces', ' Innovation-led photography and project showcases', ' Research activities and student-led experiments', ' Faculty-guided research initiatives'],
+  img: '/Researchlabs.png',
+},]
 
 // ─── Placements ────────────────────────────────────────────────────────────────
 export const placementHighlights = [
