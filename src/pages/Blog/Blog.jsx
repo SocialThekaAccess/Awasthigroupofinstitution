@@ -6,7 +6,6 @@ const SITE = 'https://www.awasthigroup.co.in/'
 
 /* ── helper: renders a paragraph string, replacing [text](url) markers with <a> ── */
 function RichPara({ text }) {
-  // split on [[keyword]] markers we embed in the strings
   const parts = text.split(/(\[\[.*?\]\])/g)
   return (
     <p>
@@ -807,6 +806,318 @@ Key Features of LLB:`,
 BA LLB is ideal for early starters, while LLB is perfect for graduates switching careers. With the right education and guidance, both paths lead to strong career opportunities in the legal field.
 
 If you are planning to study law in Nalagarh, Himachal Pradesh, choosing a reputed institution like Awasthi Group of Institutions can help you build a solid foundation for your future.`,
+      },
+    ],
+  },
+  {
+    id: 8,
+    slug: 'law-colleges-in-himachal-pradesh-courses-fees-career-scope',
+    category: 'Law',
+    tag: 'Law Colleges',
+    title: 'Law Colleges in Himachal Pradesh: Courses, Fees & Career Scope',
+    metaTitle: 'Law Colleges in Himachal Pradesh: Courses, Fees & Career Scope',
+    metaDescription: 'Explore top law colleges in Himachal Pradesh. Learn about BA LLB & LLB courses, fee structures, career opportunities, and why AGI Himachal is a top choice for legal education.',
+    excerpt: 'Explore top law colleges in Himachal Pradesh — BA LLB & LLB courses, fee structures, career scope, and why AGI Himachal is a preferred choice for legal education.',
+    img: '/Blog8.jpeg',
+    sections: [
+      {
+        heading: null,
+        body: `Choosing the right law college is an important step for students who dream of building a successful legal career. Over the last few years, many students have started looking toward [[Law Colleges in Himachal Pradesh]] because of quality education, affordable fee structures, peaceful learning environments, and growing career opportunities.
+
+Whether you want to become an advocate, corporate legal advisor, judge, legal consultant, or work in government services, selecting the right law institution can shape your future.`,
+      },
+      {
+        heading: 'Why Choose Law Colleges in Himachal Pradesh?',
+        body: `Himachal Pradesh has become an educational hub offering professional programs across multiple streams. Law education in the state combines academic learning with practical exposure.
+
+Students prefer law colleges in Himachal Pradesh because they provide:`,
+        list: [
+          'Affordable education compared to metro cities',
+          'Practical training through moot courts',
+          'Internship opportunities',
+          'Experienced faculty members',
+          'Peaceful academic environment',
+          'Career-focused curriculum',
+        ],
+        listNote: 'Institutions like AGI Himachal focus on providing quality legal education that prepares students for modern legal challenges. AGI Himachal offers both BA LLB (5 years) and LLB (3 years) programs designed to build strong legal foundations.',
+      },
+      {
+        heading: 'Popular Law Courses Available',
+        body: `Law colleges in Himachal Pradesh offer two main professional programs for students at different academic stages.`,
+      },
+      {
+        heading: '1. BA LLB (Bachelor of Arts + Bachelor of Laws)',
+        body: `This integrated program is ideal for students after Class 12.
+
+Course Duration: 5 Years
+
+The program combines humanities subjects with legal studies including:`,
+        list: [
+          'Constitutional Law',
+          'Criminal Law',
+          'Family Law',
+          'Political Science',
+          'Contract Law',
+          'Administrative Law',
+          'Legal Drafting',
+        ],
+        listNote: 'Students gain both theoretical and practical legal knowledge.',
+      },
+      {
+        heading: '2. LLB (Bachelor of Laws)',
+        body: `Students who have completed graduation can choose the traditional LLB program.
+
+Course Duration: 3 Years
+
+The course focuses deeply on:`,
+        list: [
+          'Civil Laws',
+          'Criminal Laws',
+          'Corporate Laws',
+          'Property Laws',
+          'Legal Ethics',
+          'Court Procedures',
+        ],
+        listNote: 'Institutions under Himachal Pradesh legal education systems provide practical exposure through internships and legal workshops.',
+      },
+      {
+        heading: 'Understanding Law College Fee Structures',
+        body: `Fee structures vary depending on institutions, facilities, and programs.
+
+Generally, law program fees in Himachal Pradesh may include:`,
+        list: [
+          'Admission fees',
+          'Tuition fees',
+          'Library charges',
+          'Examination fees',
+          'Practical training expenses',
+        ],
+        listNote: 'Students should also evaluate infrastructure, faculty quality, and placement opportunities rather than focusing only on fees. Private institutions may have different fee models compared to public universities.',
+      },
+      {
+        heading: 'Skills Students Develop During Law Education',
+        body: `A legal education builds much more than legal knowledge. Students develop several important professional skills.`,
+      },
+      {
+        heading: 'Communication Skills',
+        body: `Law professionals must present arguments clearly and effectively in both written and verbal forms.`,
+      },
+      {
+        heading: 'Analytical Thinking',
+        body: `Legal studies teach students to evaluate facts critically and apply legal principles to real-world situations.`,
+      },
+      {
+        heading: 'Problem Solving',
+        body: `Law professionals handle disputes and provide practical solutions that balance legal requirements with client needs.`,
+      },
+      {
+        heading: 'Research Abilities',
+        body: `Legal research becomes a major strength for future career growth in both litigation and advisory roles.`,
+      },
+      {
+        heading: 'Leadership Qualities',
+        body: `Law education builds confidence, decision-making capabilities, and the ability to lead in professional settings.`,
+      },
+      {
+        heading: 'Career Scope After Law Education',
+        body: `The legal industry offers multiple career opportunities for law graduates:`,
+        list: [
+          'Advocate — students can pursue legal practice after fulfilling regulatory requirements',
+          'Corporate Lawyer — companies require legal experts for contracts, compliance, and business regulations',
+          'Legal Advisor — organizations hire professionals to manage legal responsibilities',
+          'Judicial Services — many graduates prepare for judicial examinations',
+          'Legal Researcher — research opportunities exist in universities and policy organizations',
+          'Civil Services — law graduates often perform well in competitive government examinations',
+          'Higher Education — students can pursue LLM programs or legal specialization studies',
+        ],
+      },
+      {
+        heading: 'Importance of Practical Exposure',
+        body: `Modern law education goes beyond textbooks. Students benefit from:`,
+        list: [
+          'Moot court activities',
+          'Case study discussions',
+          'Internship exposure',
+          'Court visits',
+          'Legal workshops',
+          'Industry interaction',
+        ],
+        listNote: 'Practical learning improves confidence and prepares students for real legal environments.',
+      },
+      {
+        heading: 'Why Students Consider AGI Himachal',
+        body: `Students seeking professional education often explore AGI Himachal because of its multidisciplinary learning ecosystem and career-focused education approach.
+
+The institution offers professional programs including law education and focuses on academic excellence combined with practical exposure. AGI Himachal has developed a student-focused educational environment aimed at preparing learners for future professional success.`,
+      },
+      {
+        heading: 'Conclusion',
+        body: `Selecting the right institution among the many Law Colleges in Himachal Pradesh is an important career decision. Students should evaluate faculty quality, infrastructure, practical training opportunities, fees, and long-term career support.
+
+A strong legal education opens pathways toward advocacy, corporate law, judiciary services, policy research, and many other professional opportunities.
+
+Choose wisely today to build a successful legal career tomorrow.`,
+      },
+    ],
+  },
+
+  // ── BLOG POST #9 ──
+  {
+    id: 9,
+    slug: 'how-to-choose-the-best-college-in-himachal-pradesh-for-your-career',
+    category: 'Education',
+    tag: 'Best College',
+    title: 'How to Choose the Best College in Himachal Pradesh for Your Career',
+    metaTitle: 'How to Choose the Best College in Himachal Pradesh for Your Career',
+    metaDescription: 'Learn how to choose the best college in Himachal Pradesh by evaluating courses, faculty, infrastructure, placements, and career opportunities.',
+    excerpt: 'Learn how to choose the best college in Himachal Pradesh by evaluating courses, faculty, infrastructure, placements, and career opportunities.',
+    img: '/Blog9.jpeg',
+    sections: [
+      {
+        heading: null,
+        body: `Choosing a college is one of the biggest decisions in a student's life. The right institution helps build skills, confidence, knowledge, and career opportunities. With many educational institutions available today, students often struggle to identify the [[Best College in Himachal Pradesh]] for their future goals.
+
+The ideal college is not only about academics. It should support overall growth and prepare students for real-world success.
+
+Here are important factors students should consider before selecting a college.`,
+      },
+      {
+        heading: 'Identify Your Career Goals First',
+        body: `Before searching for colleges, students should understand their career objectives.
+
+Ask yourself:`,
+        list: [
+          'Which field interests you?',
+          'What profession do you want in the future?',
+          'Are you looking for technical education, healthcare, law, nursing, pharmacy, or management?',
+        ],
+        listNote: 'Career clarity helps narrow down the right educational institution.',
+      },
+      {
+        heading: 'Check Course Availability',
+        body: `The first step is ensuring the institution offers programs aligned with your interests.
+
+Students should look for colleges offering professional education with career relevance.
+
+Programs commonly preferred include:`,
+        list: [
+          'Law',
+          'Nursing',
+          'Ayurveda',
+          'Pharmacy',
+          'Healthcare education',
+        ],
+        listNote: 'AGI Himachal offers multiple professional programs including BAMS, Nursing, Pharmacy, BA LLB, and LLB programs designed to support career development.',
+      },
+      {
+        heading: 'Evaluate Faculty Quality',
+        body: `Faculty members play an important role in student success.
+
+Good institutions usually provide:`,
+        list: [
+          'Experienced educators',
+          'Student mentoring',
+          'Practical learning guidance',
+          'Industry-focused teaching methods',
+        ],
+        listNote: 'Faculty quality directly influences educational outcomes.',
+      },
+      {
+        heading: 'Check Infrastructure and Campus Facilities',
+        body: `A good learning environment improves student performance.
+
+Look for facilities such as:`,
+        list: [
+          'Modern classrooms',
+          'Laboratories',
+          'Libraries',
+          'Research facilities',
+          'Computer labs',
+          'Sports infrastructure',
+        ],
+        listNote: 'Technology-enabled campuses improve educational experiences and practical learning opportunities.',
+      },
+      {
+        heading: 'Placement and Career Support',
+        body: `Career preparation is one of the strongest indicators of a quality institution.
+
+Students should evaluate:`,
+        list: [
+          'Internship support',
+          'Industry exposure',
+          'Career guidance',
+          'Placement assistance',
+          'Professional training programs',
+        ],
+        listNote: 'Career-focused institutions help students transition smoothly into professional life.',
+      },
+      {
+        heading: 'Consider Location and Accessibility',
+        body: `Students often prefer colleges that offer both quality education and comfortable living environments.
+
+Himachal Pradesh provides:`,
+        list: [
+          'Peaceful surroundings',
+          'Better learning atmosphere',
+          'Reduced distractions',
+          'Growing educational opportunities',
+        ],
+        listNote: 'Locations like Nalagarh are becoming educational destinations because of expanding professional education infrastructure.',
+      },
+      {
+        heading: 'Look Beyond Fees',
+        body: `Many students choose colleges only based on affordability.
+
+While fees matter, students should also evaluate:`,
+        list: [
+          'Educational quality',
+          'Faculty expertise',
+          'Campus facilities',
+          'Career opportunities',
+          'Industry exposure',
+        ],
+        listNote: 'Value-driven education delivers better long-term benefits.',
+      },
+      {
+        heading: 'Research Student Development Opportunities',
+        body: `The best institutions support overall development.
+
+Look for:`,
+        list: [
+          'Workshops',
+          'Cultural events',
+          'Student clubs',
+          'Research opportunities',
+          'Leadership activities',
+        ],
+        listNote: 'Holistic development builds confidence and career readiness.',
+      },
+      {
+        heading: 'Read Student Feedback and Institution Reputation',
+        body: `Institution reputation reflects long-term educational standards.
+
+Students should research:`,
+        list: [
+          'Alumni success',
+          'Academic achievements',
+          'Institutional recognition',
+          'Professional partnerships',
+        ],
+        listNote: 'A strong reputation often indicates consistent educational quality.',
+      },
+      {
+        heading: 'Why AGI Himachal Stands Out',
+        body: `Students searching for the Best College in Himachal Pradesh often prefer institutions that combine academic quality with practical learning.
+
+AGI Himachal focuses on professional education, career preparation, modern infrastructure, and multidisciplinary learning. The institution has built an educational ecosystem that encourages innovation, critical thinking, and practical skill development.`,
+      },
+      {
+        heading: 'Final Thoughts',
+        body: `Selecting the Best College in Himachal Pradesh is not only about choosing an institution. It is about choosing your future.
+
+Take time to research courses, faculty, infrastructure, career support, and long-term opportunities before making your decision.
+
+The right college can become the foundation for a successful and rewarding career.`,
       },
     ],
   },

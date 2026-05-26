@@ -23,3 +23,4 @@ export default function SliderDots({ slides, activeIndex, onSelect, label = 'Sli
     </div>
   )
 }
+   
