@@ -1537,10 +1537,10 @@ export default function Blog() {
     <div className="page blog-page">
 
       <Helmet>
-        <title>Blog | Awasthi Group of Institutions — Education, Ayurveda &amp; Career Insights</title>
-        <meta name="description" content="Read helpful articles on higher education, Ayurveda, Nursing, Law, and career guidance from Awasthi Group of Institutions, Nalagarh, Himachal Pradesh." />
+        <title>Blog | Awasthi Group of Institutions</title>
+        <meta name="description" content="Read the latest blogs from Awasthi Group of Institutions covering admissions, nursing, pharmacy, placements and career guidance." />
         <meta property="og:title" content="Blog | Awasthi Group of Institutions" />
-        <meta property="og:description" content="Read helpful articles on higher education, Ayurveda, Nursing, Law, and career guidance from Awasthi Group of Institutions, Nalagarh, Himachal Pradesh." />
+        <meta property="og:description" content="Read the latest blogs from Awasthi Group of Institutions covering admissions, nursing, pharmacy, placements and career guidance." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://awasthigroup.co.in/blog" />
       </Helmet>
