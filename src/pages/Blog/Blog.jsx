@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async'
+import { useEffect } from 'react'
 import { useNavigate, useParams, Link } from 'react-router-dom'
 import './Blog.css'
 
@@ -1439,6 +1440,15 @@ export function BlogArticle() {
   const navigate = useNavigate()
   const post = blogPosts.find(p => p.slug === slug)
 
+  useEffect(() => {
+    if (post) {
+      document.title = `${post.metaTitle} | Awasthi Group of Institutions`
+    }
+    return () => {
+      document.title = 'AGI Himachal | Best Ayurveda, Nursing & Law College in Nalagarh Himachal Pradesh'
+    }
+  }, [post])
+
   if (!post) {
     return (
       <div className="page blog-page" style={{ padding: '4rem 2rem', textAlign: 'center' }}>
@@ -1532,6 +1542,13 @@ export function BlogArticle() {
 /* ── Blog Listing ── */
 export default function Blog() {
   const navigate = useNavigate()
+
+  useEffect(() => {
+    document.title = 'Blog | Awasthi Group of Institutions'
+    return () => {
+      document.title = 'AGI Himachal | Best Ayurveda, Nursing & Law College in Nalagarh Himachal Pradesh'
+    }
+  }, [])
 
   return (
     <div className="page blog-page">
