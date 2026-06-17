@@ -11,13 +11,13 @@ const Footer = () => {
 
         {/* Brand Column */}
         <div className="footer-brand">
-          <div className="logo-box">
+          <Link to="/" onClick={() => window.scrollTo(0, 0)} className="logo-box" style={{ textDecoration: 'none', cursor: 'pointer' }}>
             <img src="/logo.png" alt="Awasthi Group logo" className="footer-logo-img" />
             <div>
               <div className="logo-text-main"></div>
               <div className="logo-text-sub"></div>
             </div>
-          </div>
+          </Link>
           <p>
             Building a brighter future for generations ahead. Professional
             education for future-ready learners.
