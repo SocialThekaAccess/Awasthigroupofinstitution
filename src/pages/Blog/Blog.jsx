@@ -1444,7 +1444,7 @@ With strong industry growth, diverse career opportunities, and increasing demand
     metaDescription: 'Looking for the best LLB college in Himachal Pradesh? Explore Awasthi College of Law in Nalagarh for LLB, BA LLB, admission guidance, and career-focused legal education.',
     excerpt:
       'Looking for the best LLB college in Himachal Pradesh? Explore Awasthi College of Law in Nalagarh for LLB, BA LLB, admission guidance, and career-focused legal education.',
-    img: '/Awasthilaw.png',
+    img: '/Blog12.png',
     sections: [
       {
         heading: null,
@@ -1629,7 +1629,7 @@ With recognized programs, experienced faculty, practical legal exposure, and a s
     metaDescription: 'Looking for a B.Sc Nursing College in Himachal Pradesh? Explore B.Sc Nursing and medical courses after 12th at AGI Himachal near Solan.',
     excerpt:
       'Looking for a B.Sc Nursing College in Himachal Pradesh? Explore B.Sc Nursing and medical courses after 12th at AGI Himachal near Solan.',
-    img: '/Awasthinursing.png',
+    img: '/Blog13.png',
     sections: [
       {
         heading: null,
