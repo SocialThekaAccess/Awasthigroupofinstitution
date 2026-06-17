@@ -1136,7 +1136,7 @@ The right college can become the foundation for a successful and rewarding caree
     metaDescription: 'Looking for the Best Nursing College in Himachal Pradesh? Explore nursing courses in Himachal Pradesh, admission process, career scope, GNM and BSc Nursing programs.',
     excerpt:
       'Looking for the Best Nursing College in Himachal Pradesh? Explore nursing courses, admission process, career scope, GNM and BSc Nursing programs available in HP.',
-    img: '/Awasthinursing.png',
+    img: '/Blog10.png',
     sections: [
       {
         heading: null,
@@ -1278,7 +1278,7 @@ With growing demand for healthcare professionals and excellent career opportunit
     metaDescription: 'Looking for the Best Pharmacy College in Himachal Pradesh? Explore pharmacy courses in Himachal Pradesh, D Pharmacy and B Pharmacy programs, fees, admissions, and career opportunities.',
     excerpt:
       'Looking for the Best Pharmacy College in Himachal Pradesh? Explore D Pharmacy and B Pharmacy programs, fees, admission process, and career opportunities in the pharmaceutical sector.',
-    img: '/AwasthiPharmacy.png',
+    img: '/Blog11.png',
     sections: [
       {
         heading: null,
