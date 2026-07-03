@@ -95,18 +95,20 @@ export default function Career() {
         </div>
         <div className="career-jobs-grid">
           {[
-            { title: 'Faculty — Nursing',        type: 'Full Time', dept: 'Nursing Department'  },
-            { title: 'Faculty — Ayurveda',        type: 'Full Time', dept: 'Ayurveda Department' },
-            { title: 'Faculty — Law',             type: 'Full Time', dept: 'Law Department'      },
-            { title: 'Faculty — Pharmacy',        type: 'Full Time', dept: 'Pharmacy Department' },
-            { title: 'Administrative Officer',    type: 'Full Time', dept: 'Administration'      },
-            { title: 'Lab Technician',            type: 'Full Time', dept: 'Research & Labs'     },
+            { title: 'Faculty — Nursing',        dept: 'Nursing Department'  },
+            { title: 'Faculty — Ayurveda',        dept: 'Ayurveda Department' },
+            { title: 'Faculty — Law',             dept: 'Law Department'      },
+            { title: 'Faculty — Pharmacy',        dept: 'Pharmacy Department' },
+            { title: 'Administrative Officer',    dept: 'Administration'      },
+            { title: 'Lab Technician',            dept: 'Research & Labs'     },
           ].map((job, i) => (
             <div key={i} className="career-job-card">
               <div>
                 <span className="job-dept">{job.dept}</span>
                 <h3>{job.title}</h3>
-                <span className="job-type">{job.type}</span>
+                <div className="job-pills">
+                  <span className="job-type">Full Time</span>
+                </div>
               </div>
               <a href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/" target="_blank" rel="noopener noreferrer" className="job-apply-btn">Apply →</a>
             </div>
@@ -131,8 +133,10 @@ export default function Career() {
                   <div>
                     <span className="job-dept">{dept.name}</span>
                     <h3>{role.title}</h3>
-                    <span className="job-type">Full Time</span>
-                    <span className="job-vacancy-count">{role.count} {role.count === 1 ? 'Vacancy' : 'Vacancies'}</span>
+                    <div className="job-pills">
+                      <span className="job-type">Full Time</span>
+                      <span className="job-vacancy-count">{role.count} {role.count === 1 ? 'Vacancy' : 'Vacancies'}</span>
+                    </div>
                   </div>
                   <a
                     href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/"
