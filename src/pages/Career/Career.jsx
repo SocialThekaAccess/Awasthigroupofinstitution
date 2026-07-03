@@ -1,5 +1,49 @@
 import './Career.css'
 
+/* ─── Current Vacancy Data ─────────────────────────────────────────────────── */
+const DEPARTMENTS = [
+  {
+    name: 'Awasthi Ayurvedic Medical College & Hospital',
+    roles: [
+      { title: 'Assistant Professor (Bal Rog)',                      count: 1 },
+      { title: 'Assistant Professor (Stri Rog Evam Prasuti Tantra)', count: 1 },
+      { title: 'Associate / Professor (Samhita Siddhant)',           count: 1 },
+      { title: 'Associate / Professor (Ras Shastra)',                count: 1 },
+      { title: 'Associate / Professor (Bal Rog)',                    count: 1 },
+    ],
+  },
+  {
+    name: 'Awasthi Institute of Pharmacy',
+    roles: [
+      { title: 'Assistant Professor (Pharmacology)',  count: 1 },
+      { title: 'Assistant Professor (Pharmacognosy)', count: 1 },
+      { title: 'Lab Technician',                      count: 1 },
+    ],
+  },
+  {
+    name: 'Awasthi Institute of Law',
+    roles: [
+      { title: 'Assistant Professor (Law)', count: 2 },
+    ],
+  },
+  {
+    name: 'Awasthi Institute of Nursing',
+    roles: [
+      { title: 'Assistant Professor', count: 2 },
+      { title: 'Tutor',               count: 2 },
+    ],
+  },
+  {
+    name: 'Management',
+    roles: [
+      { title: 'PA to Director',                   count: 1 },
+      { title: 'Junior Accountant',                count: 2 },
+      { title: 'Hardware & Networking Technician', count: 1 },
+      { title: 'Management Associate',             count: 2 },
+    ],
+  },
+]
+
 export default function Career() {
   return (
     <div className="page career-page">
@@ -42,7 +86,7 @@ export default function Career() {
         </div>
       </section>
 
-      {/* ── OPEN POSITIONS ── */}
+      {/* ── OPEN POSITIONS (original generic cards) ── */}
       <section className="career-openings" id="openings">
         <div className="career-openings-header">
           <p className="section-label">We're Hiring</p>
@@ -51,12 +95,12 @@ export default function Career() {
         </div>
         <div className="career-jobs-grid">
           {[
-            { title: 'Faculty — Nursing', type: 'Full Time', dept: 'Nursing Department' },
-            { title: 'Faculty — Ayurveda', type: 'Full Time', dept: 'Ayurveda Department' },
-            { title: 'Faculty — Law', type: 'Full Time', dept: 'Law Department' },
-            { title: 'Faculty — Pharmacy', type: 'Full Time', dept: 'Pharmacy Department' },
-            { title: 'Administrative Officer', type: 'Full Time', dept: 'Administration' },
-            { title: 'Lab Technician', type: 'Full Time', dept: 'Research & Labs' },
+            { title: 'Faculty — Nursing',        type: 'Full Time', dept: 'Nursing Department'  },
+            { title: 'Faculty — Ayurveda',        type: 'Full Time', dept: 'Ayurveda Department' },
+            { title: 'Faculty — Law',             type: 'Full Time', dept: 'Law Department'      },
+            { title: 'Faculty — Pharmacy',        type: 'Full Time', dept: 'Pharmacy Department' },
+            { title: 'Administrative Officer',    type: 'Full Time', dept: 'Administration'      },
+            { title: 'Lab Technician',            type: 'Full Time', dept: 'Research & Labs'     },
           ].map((job, i) => (
             <div key={i} className="career-job-card">
               <div>
@@ -68,6 +112,41 @@ export default function Career() {
             </div>
           ))}
         </div>
+      </section>
+
+      {/* ── CURRENT VACANCIES (detailed board) ── */}
+      <section className="career-openings career-openings--vacancies" id="vacancies">
+        <div className="career-openings-header">
+          <p className="section-label">Vacancy Board</p>
+          <h2>Current Vacancies</h2>
+          <p className="career-openings-sub">Detailed openings across all institutes — July 2025.</p>
+        </div>
+
+        {DEPARTMENTS.map((dept) => (
+          <div key={dept.name} className="career-dept-group">
+            <h3 className="career-dept-label">{dept.name}</h3>
+            <div className="career-jobs-grid">
+              {dept.roles.map((role, i) => (
+                <div key={i} className="career-job-card">
+                  <div>
+                    <span className="job-dept">{dept.name}</span>
+                    <h3>{role.title}</h3>
+                    <span className="job-type">Full Time</span>
+                    <span className="job-vacancy-count">{role.count} {role.count === 1 ? 'Vacancy' : 'Vacancies'}</span>
+                  </div>
+                  <a
+                    href="https://aginalagarh.schoolpad.in/employeeEnquiryManager/onlineApplicationForm/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="job-apply-btn"
+                  >
+                    Apply →
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
       </section>
 
       {/* ── CTA ── */}
