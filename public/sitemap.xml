@@ -3,174 +3,211 @@
 
   <url>
     <loc>https://www.awasthigroup.co.in/</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/about</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/programs</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/admissions</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/placement</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/career</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/contact</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/pay-now</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.awasthigroup.co.in/brochure</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/privacy-policy</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/terms-and-conditions</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Blog Posts -->
   <url>
     <loc>https://www.awasthigroup.co.in/blog/top-reasons-to-choose-colleges-in-nalagarh-himachal-pradesh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-ayurvedic-college-in-himachal-pradesh-for-bams</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-college-in-nalagarh-for-career-focused-education</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-college-in-nalagarh-for-nursing-law-ayurveda</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/how-to-get-admission-in-bsc-nursing-in-himachal-pradesh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/future-of-ayurveda-in-nalagarh-himachal-pradesh-bams-course</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/ba-llb-vs-llb-which-law-course-should-you-choose</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/law-colleges-in-himachal-pradesh-courses-fees-career-scope</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/how-to-choose-the-best-college-in-himachal-pradesh-for-your-career</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-nursing-college-in-himachal-pradesh-courses-scope-admission</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-pharmacy-college-in-himachal-pradesh-courses-fees-career-scope</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-llb-college-in-himachal-pradesh-awasthi-college-of-law-nalagarh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/bsc-nursing-college-in-himachal-pradesh-career-after-12th</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/paramedical-college-in-nalagarh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/bsc-nursing-college-in-himachal-pradesh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/b-pharmacy-vs-ayurvedic-medical-college-himachal-pradesh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/best-nursing-college-in-solan</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog/law-colleges-in-himachal-pradesh</loc>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
