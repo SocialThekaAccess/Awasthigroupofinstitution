@@ -21,7 +21,7 @@ const DEPARTMENTS = [
     ],
   },
   {
-    name: 'Awasthi Institute of Law',
+    name: 'Awasthi College of Law (ACL)',
     roles: [
       { title: 'Assistant Professor (Law)', count: 2 },
     ],

@@ -1278,7 +1278,7 @@ With growing demand for healthcare professionals and excellent career opportunit
     metaDescription: 'Looking for the Best Pharmacy College in Himachal Pradesh? Explore pharmacy courses in Himachal Pradesh, D Pharmacy and B Pharmacy programs, fees, admissions, and career opportunities.',
     excerpt:
       'Looking for the Best Pharmacy College in Himachal Pradesh? Explore D Pharmacy and B Pharmacy programs, fees, admission process, and career opportunities in the pharmaceutical sector.',
-    img: '/Blog11.png',
+    img: '/BPharmacyCollegeinHimachalPradesh.png',
     sections: [
       {
         heading: null,
@@ -1770,7 +1770,7 @@ With its focus on professional education and student development, AGI Himachal c
     metaDescription: 'Looking for a paramedical college in Nalagarh? Discover why students choose Awasthi Group for healthcare education, including BSc Nursing, B Pharmacy, Ayurveda and more in Himachal Pradesh.',
     excerpt:
       'Looking for a paramedical college in Nalagarh? Discover why students choose Awasthi Group for healthcare education, including BSc Nursing, B Pharmacy, Ayurveda and more in Himachal Pradesh.',
-    img: '/paramedical-nalagarh.png',
+    img: '/ParamedicalCollege .png',
     sections: [
       {
         heading: null,
@@ -2011,7 +2011,7 @@ With experienced faculty, practical training, modern infrastructure, and a stude
     metaDescription: 'Searching for a BSc Nursing college in Himachal Pradesh? Learn how to choose the right nursing college, explore career opportunities, and discover why Awasthi Group is a preferred choice.',
     excerpt:
       'Searching for a BSc Nursing college in Himachal Pradesh? Learn how to choose the right nursing college, explore career opportunities, and discover why Awasthi Group is a preferred choice.',
-    img: '/bsc-nursing-hp.png',
+    img: '/BScNursingCollege.png',
     sections: [
       {
         heading: null,
@@ -2275,7 +2275,7 @@ Whether your interests lie in nursing, pharmacy, Ayurveda, or allied healthcare,
     metaDescription: 'Confused between a B Pharmacy college in Himachal Pradesh and an Ayurvedic medical college? Compare careers, eligibility, scope, and discover the right path with Awasthi Group.',
     excerpt:
       'Confused between a B Pharmacy college in Himachal Pradesh and an Ayurvedic medical college? Compare careers, eligibility, scope, and discover the right path with Awasthi Group.',
-    img: '/pharmacy-vs-ayurveda.png',
+    img: '/Blog11.png',
     sections: [
       {
         heading: null,
@@ -2589,7 +2589,7 @@ By understanding your interests and choosing the programme that aligns with your
     metaDescription: 'Searching for the best nursing college in Solan? Learn what to look for before admission, career opportunities, and why Awasthi Group is a trusted choice in Himachal Pradesh.',
     excerpt:
       'Searching for the best nursing college in Solan? Learn what to look for before admission, career opportunities, and why Awasthi Group is a trusted choice in Himachal Pradesh.',
-    img: '/best-nursing-solan.png',
+    img: '/BestNursingCollegeinSolan.png',
     sections: [
       {
         heading: null,
@@ -2871,7 +2871,7 @@ Investing in the right education today will open doors to countless opportunitie
     metaDescription: 'Explore the best law colleges in Himachal Pradesh. Learn about legal careers, course options, and why Awasthi Group is a preferred destination for aspiring law professionals.',
     excerpt:
       'Explore the best law colleges in Himachal Pradesh. Learn about legal careers, course options, and why Awasthi Group is a preferred destination for aspiring law professionals.',
-    img: '/law-colleges-hp.png',
+    img: '/LawCollegesinHimachalPradesh .png',
     sections: [
       {
         heading: null,
