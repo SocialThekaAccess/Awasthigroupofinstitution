@@ -44,9 +44,17 @@ main {
 
 #root {
   width: 100%;
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   background: #ffffff;
+}
+
+/* Ensure content sections have proper max-width for readability on large screens */
+@media (min-width: 1920px) {
+  .page {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -140,6 +148,58 @@ p + p {
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+}
+
+/* ── Large Screen Optimization (1920px+) ── */
+@media (min-width: 1920px) {
+  /* Main content container */
+  .page {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 4rem 2.75rem;
+  }
+  
+  /* Hero section */
+  .hero {
+    max-width: 1920px;
+    margin: 1.5rem auto 2rem;
+  }
+  
+  /* MegaStage section */
+  .mega-stage {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 3.5rem 6rem;
+  }
+  
+  /* Showcase section */
+  .showcase {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  /* PlacementsSpotlight section */
+  .placements-spotlight {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  /* OverviewGrid section */
+  .overview-grid {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  .site-footer {
+    max-width: 100%;
+  }
+  
+  .footer-inner {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 4rem;
   }
 }
 
