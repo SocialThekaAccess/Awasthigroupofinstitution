@@ -3118,7 +3118,7 @@ Invest in an education that develops your knowledge, confidence, and leadership 
     metaTitle: 'Best College in Nalagarh | Nursing, BAMS & Law College | AGI Himachal',
     metaDescription: 'Looking for the best college in Nalagarh? Explore AGI Himachal offering INC-approved Nursing, NCISM-approved BAMS, BCI-recognized Law, paramedical courses, modern facilities, and excellent career opportunities near Chandigarh.',
     excerpt: 'Discover why AGI Himachal is the best college in Nalagarh for Nursing, BAMS, and Law. Learn about approvals, clinical exposure, affordable fees, and career opportunities near Chandigarh.',
-    img: '/bestcollegeinnalagarh.jpeg',
+    img: '/AGIHimachalKeepsComingUpBlogimg.png',
     sections: [
       {
         heading: null,
@@ -3214,7 +3214,7 @@ The advice worth repeating to every family evaluating any private institute, not
     metaTitle: 'Law College in Nalagarh | BA LLB & LLB Programs | AGI Himachal',
     metaDescription: 'Looking for the best law college in Nalagarh? AGI Himachal offers BCI-approved BA LLB and LLB programs with experienced faculty, moot court training, internship opportunities, and a modern multidisciplinary campus near Chandigarh',
     excerpt: 'Discover what to consider before choosing a law college in Nalagarh. Learn about BA LLB vs LLB, BCI approvals, moot courts, and career paths at AGI Himachal.',
-    img: '/bavsballb.jpeg',
+    img: '/PickaFive-YearLLBProgramBlogImg.png',
     sections: [
       {
         heading: null,
