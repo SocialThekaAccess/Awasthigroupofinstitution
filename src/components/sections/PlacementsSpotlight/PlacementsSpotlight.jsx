@@ -45,7 +45,7 @@ export default function PlacementsSpotlight() {
         </p>
 
         <div className="placements-actions">
-          <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">Apply Now</Button>
+          <Button href="https://aginalagarh.schoolpad.in/online-open-admission-form-v1/0/utm-source/website" target="_blank" rel="noopener noreferrer" variant="primary">Apply Now</Button>
           <Button href="/placement" variant="secondary">View Placements</Button>
         </div>
 

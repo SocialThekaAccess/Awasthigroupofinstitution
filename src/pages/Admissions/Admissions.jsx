@@ -26,7 +26,7 @@ const Admissions = () => {
             </p>
 
             <div className="admissions-buttons">
-              <a href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" className="btn-apply">
+              <a href="https://aginalagarh.schoolpad.in/online-open-admission-form-v1/0/utm-source/website" target="_blank" rel="noopener noreferrer" className="btn-apply">
                 <span>Enquiry</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
                   <line x1="5" y1="12" x2="19" y2="12"/>
@@ -34,7 +34,7 @@ const Admissions = () => {
                 </svg>
               </a>
               
-              <a href="https://aginalagarh.schoolpad.in/enquiryManager/onlineAdmission/9" target="_blank" rel="noopener noreferrer" className="btn-apply">
+              <a href="https://aginalagarh.schoolpad.in/onlineAdmission/0/utm-source/website" target="_blank" rel="noopener noreferrer" className="btn-apply">
                 <span>Registration Form</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
                   <line x1="5" y1="12" x2="19" y2="12"/>
