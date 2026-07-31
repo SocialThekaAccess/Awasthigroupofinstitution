@@ -24,7 +24,7 @@ const About = () => {
             through education since 2005, nurturing the leaders of tomorrow
             with passion and commitment.
           </p>
-          <a href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" className="about-hero__btn">Join Us</a>
+          <a href="https://aginalagarh.schoolpad.in/online-open-admission-form-v1/0/utm-source/website" target="_blank" rel="noopener noreferrer" className="about-hero__btn">Join Us</a>
         </div>
         <div className="about-hero__image-wrap">
           <img src="/Awasthimootcourt.png" alt="Students" className="about-hero__img" />

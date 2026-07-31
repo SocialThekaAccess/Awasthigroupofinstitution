@@ -23,7 +23,7 @@ export default function Placement() {
           <h1>Pave Your Path<br />to <span>Success</span></h1>
           <p>Bridging the gap between academia and industry. Discover how our robust placement network and comprehensive career support services prepare you for the professional world.</p>
           <div className="pl-hero-btns">
-            <a href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" className="pl-btn-primary">Apply Now ↗</a>
+            <a href="https://aginalagarh.schoolpad.in/online-open-admission-form-v1/0/utm-source/website" target="_blank" rel="noopener noreferrer" className="pl-btn-primary">Apply Now ↗</a>
             <button className="pl-btn-video" onClick={() => setVideoOpen(true)}>
               <span className="pl-play-icon">▶</span>
               Watch Video
@@ -139,7 +139,7 @@ export default function Placement() {
           <p className="section-label">Join Our Community</p>
           <h2>Ready to Launch Your Professional Journey?</h2>
           <p>Whether you are a student seeking placement support or a recruiter looking for top talent, we are here to help.</p>
-          <Button href="https://aginalagarh.schoolpad.in/enquiryManager/onlineOpenAdmissionForm/9" target="_blank" rel="noopener noreferrer" variant="primary">Apply Now ↗</Button>
+          <Button href="https://aginalagarh.schoolpad.in/online-open-admission-form-v1/0/utm-source/website" target="_blank" rel="noopener noreferrer" variant="primary">Apply Now ↗</Button>
         </div>
       </section>
 
