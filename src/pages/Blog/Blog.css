@@ -505,3 +505,48 @@
   .blog-art-body { padding: 1.25rem 1rem; }
   .blog-art-top h1 { font-size: 1.3rem; }
 }
+
+/* ═══════════════════════════════════════
+   FAQ SECTION
+═══════════════════════════════════════ */
+.blog-faqs {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #eff6ff;
+}
+
+.blog-faqs h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0d1b2e;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #1d4ed8;
+}
+
+.blog-faq-item {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem;
+  background: #f8fafc;
+  border-left: 4px solid #1d4ed8;
+  border-radius: 8px;
+}
+
+.blog-faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.blog-faq-item h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0d1b2e;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.blog-faq-item p {
+  font-size: 0.92rem;
+  color: #475569;
+  line-height: 1.7;
+  margin: 0;
+}
