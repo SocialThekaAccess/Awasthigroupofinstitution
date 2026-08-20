@@ -3629,7 +3629,7 @@ A strong academic foundation, experienced faculty, modern facilities, and indust
     metaDescription: 'Choosing a BSc nursing college in Himachal Pradesh? Learn what students should know before their first clinical posting, from communication to patient safety.',
     excerpt:
       'Learn what to expect before your first clinical posting at a BSc nursing college in Himachal Pradesh — from communication skills to patient safety and professional readiness.',
-    img: '/BScNursingCollege.png',
+    img: '/Beyond the Classroom What to Expect Before Your First Clinical Posting at a BSc Nursing College in Himachal Pradesh.png',
     sections: [
       {
         heading: null,
