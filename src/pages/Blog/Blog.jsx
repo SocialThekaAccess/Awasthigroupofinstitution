@@ -217,7 +217,6 @@ Awasthi Group of Institutions welcomes students interested in nursing, Ayurveda,
       },
     ],
   },
-]
   {
     id: 1,
     slug: 'top-reasons-to-choose-colleges-in-nalagarh-himachal-pradesh',
