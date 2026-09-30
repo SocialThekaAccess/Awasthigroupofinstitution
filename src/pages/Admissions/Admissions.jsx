@@ -41,6 +41,14 @@ const Admissions = () => {
                   <polyline points="12 5 19 12 12 19"/>
                 </svg>
               </a>
+
+              <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer" className="btn-apply btn-apply--outline">
+                <span>Terms &amp; Conditions</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </a>
             </div>
 
             <div className="admissions-contact">
