@@ -80,12 +80,47 @@
 
   <url>
     <loc>https://www.awasthigroup.co.in/blog</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Blog Posts -->
+  <url>
+    <loc>https://www.awasthigroup.co.in/blog/best-college-nalagarh-choosing-institution-guide</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.awasthigroup.co.in/blog/pharmacy-college-nalagarh-b-pharm-pci-guide</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.awasthigroup.co.in/blog/ayurvedic-medical-college-himachal-pradesh-bams-guide</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.awasthigroup.co.in/blog/law-college-nalagarh-llb-ba-llb-admission-guide</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.awasthigroup.co.in/blog/best-nursing-college-nalagarh-himachal-pradesh-programme-guide</loc>
+    <lastmod>2026-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <url>
     <loc>https://www.awasthigroup.co.in/blog/law-college-admission-himachal-llb-ayurveda-nursing-guide</loc>
     <lastmod>2026-10-16</lastmod>
